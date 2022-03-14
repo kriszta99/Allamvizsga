@@ -12,18 +12,20 @@ include("login-register-link-bootstap.php");
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 <style>
 p{
-	padding:100px;
+	padding:90px;
 	text-align:center;
     font-size: 20px;
+    padding-bottom: 3px;
+
     font-weight: 500;
     color: rosybrown;
 }
 .homepage_disigne2{
-            padding:10px;
             display: flex;
             justify-content: center;
            

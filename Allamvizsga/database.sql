@@ -47,7 +47,7 @@ INSERT INTO pictures(homepageId,pictureName,pictureNine) VALUES(3,'regisz','icon
 INSERT INTO pictures(homepageId,pictureName,pictureNine) VALUES(2,'c++','icon/c++.jpg');
 INSERT INTO pictures(homepageId,pictureName,pictureNine) VALUES(2,'c','icon/c.jpg');
 INSERT INTO pictures(homepageId,pictureName,pictureNine) VALUES(2,'java','icon/java.jpg');
-INSERT INTO pictures(homepageId,pictureName,pictureNine) VALUES(1,'logo','icon/logo.jpg');
+INSERT INTO pictures(homepageId,pictureName,pictureNine) VALUES(1,'logo','icon/logo.png');
 
 
 

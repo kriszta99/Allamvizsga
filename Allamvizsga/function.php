@@ -37,7 +37,7 @@ function getLogo(){
         $result= $link->query('SELECT pictureNine FROM pictures where pictureName="logo"');
          
          while ($data = $result->fetch_assoc()) {
-            echo "<img src= '{$data['pictureNine']}' width='175px' height='175'>";
+            echo "<img src= '{$data['pictureNine']}' width='250px' height='240px'>";
              
          }
         

@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD']  == 'POST'){
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
     <title>Bejelentkezés</title>
@@ -66,7 +66,7 @@ if($_SERVER['REQUEST_METHOD']  == 'POST'){
         Swal.fire({
         icon: 'info',
         iconColor:"#bc8f8f",
-        title: 'Email cim és jelszó',
+        title: 'Email cím és jelszó',
         text: 'Helyesen tölsd ki a mezőket, mert ha nem újra ki kell töltened!',
         confirmButtonColor: '#bc8f8f',
 

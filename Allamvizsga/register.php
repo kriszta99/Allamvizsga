@@ -19,12 +19,13 @@ if($_SERVER['REQUEST_METHOD']  == 'POST'){
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Regisztráció</title>
 </head>
 
 <body >
+<br>
 
     <div class="d-flex justify-content-center align-items-center login-container">
         <form class="login-form text-center" action="register-process.php" id="myForm1" method="post">
@@ -86,11 +87,22 @@ if($_SERVER['REQUEST_METHOD']  == 'POST'){
             </div>
           </form>
     </div>
+    <br><br>
 </body>
 
  
   <script>
+    //egy felugro ablak ami figyelmeztet 
+      Swal.fire({
+        icon: 'info',
+        iconColor:"#bc8f8f",
+        title: 'Email cím figyelmezető',
+        //customClass: 'swal-height',
 
+        text: 'Ne használj olyan email címet amivel már egyszer regisztráltál ide, mert visszaugrik erre az oldalra s ki kell töltened újra!',
+        confirmButtonColor: '#bc8f8f',
+
+        })
     //a ket jelszot ellenorzi h megegyezik e 
      $('#password, #confirm_password').on('keyup', function () {
     if ($('#password').val() == $('#confirm_password').val()) {
@@ -111,4 +123,5 @@ function myFunction() {
     }
   }
     </script>
+   
 </html>
